@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+h1 {
+    color: darkblue;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+}
+h2 {
+    color: darkgreen;
+    margin-left: 20px;
+    font-size: 28px;
+    text-align:center;
+}
+h3 {
+    color: darkred;
+    margin-left: 20px;
+    font-size: 22px;
+    text-align:center;
+}
+p {
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+    font-size: 16px;
+}
+/* Link states in LVHA order for consistent behavior */
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: purple;
+    text-decoration: underline;
+}
+img{
+    /* enable smooth transform animations */
+    transition: transform 0.2s ease;
+}
+
+img:hover {
+    transform: scale(1.3);
+}
