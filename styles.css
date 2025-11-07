@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: lightgray;
+    text-align: center;
 }
 h1 {
     color: darkblue;
@@ -26,6 +27,12 @@ p {
     color: #333;
     line-height: 1.6;
     margin: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+li {
+    text-align: left;
+    color: #000;
     font-size: 16px;
 }
 /* Link states in LVHA order for consistent behavior */
