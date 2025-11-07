@@ -46,6 +46,15 @@ a:hover,
 a:active {
     color: purple;
     text-decoration: underline;
+body > a {
+    display: inline-block;
+    margin: 12px 8px;
+    vertical-align: top;
+}
+
+a {
+    text-align: center;
+}
 }
 img{
     /* enable smooth transform animations */
